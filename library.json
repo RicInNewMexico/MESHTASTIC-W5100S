@@ -1,32 +1,22 @@
 {
-	"name": "RAK13800-W5100S",
-	"version": "1.0.2",
-	"keywords": [
-		"Ethernet",
-		"W5100S",
-		"RAKWireless",
-		"WisBlock",
-		"RAK13800"
-	],
-	"description": "RAKWireless library for the RAK13800 Ethernet Module",
-	"frameworks": [
-		"arduino"
-	],
-	"platforms": [
-		"*"
-	],
-	"license": "GPL-2.0-or-later",
-	"authors": [
-		{
-			"email": "nero.du@rakwireless.com",
-			"url": "https://rakwireless.com",
-			"maintainer": true,
-			"name": "Nero"
-		}
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/RAKWireless/RAK13800-W5100S"
-	},
-	"homepage": "https://rakwireless.com"
+  "name": "MESHTASTIC-W5100S",
+  "version": "1.0.2",
+  "keywords": ["Ethernet", "W5100S", "RAKWireless", "WisBlock", "RAK13800"],
+  "description": "Arduino library for the RAK13800 Ethernet Module and other W5100/5200/5500 based Ethernet modules.",
+  "frameworks": ["arduino"],
+  "platforms": ["*"],
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "email": "none",
+      "url": "https://github.com/RicInNewMexico/MESHTASTIC-W5100S",
+      "maintainer": true,
+      "name": "Ric"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RicInNewMexico/MESHTASTIC-W5100S"
+  },
+  "homepage": "https://meshtastic.com"
 }
