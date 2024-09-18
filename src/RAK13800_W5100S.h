@@ -53,7 +53,7 @@
 #include "Udp.h"
 #include <SPI.h>
 
-#ifdef _VARIANT_RAK11200_
+#if defined(_VARIANT_RAK11200_) || defined(HAS_ESP32LAN)
 	#include "RewriteServer.h"
 #else
 	#include "Server.h"
@@ -261,7 +261,7 @@ private:
 	uint16_t _timeout;
 };
 
-#if defined(_VARIANT_RAK11200_)
+#if defined(_VARIANT_RAK11200_) || defined(HAS_ESP32LAN)
 	class EthernetServer : public RewriteServer 
 	{
 	private:
